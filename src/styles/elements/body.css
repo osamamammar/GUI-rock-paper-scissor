@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	background: radial-gradient(circle at center, #1f3756, #141539);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}

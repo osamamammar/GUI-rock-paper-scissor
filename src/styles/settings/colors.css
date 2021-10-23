@@ -1,0 +1,18 @@
+:root {
+	--primary-color: #000;
+	--scissor-shadow: hsla(39, 89%, 49%, 0.7);
+	--scissor-border: hsl(40, 84%, 53%);
+	--paper-shadow: hsla(230, 89%, 62%, 0.7);
+	--paper-border: hsl(230, 89%, 65%);
+	--rock-shadow: hsla(349, 71%, 52%, 0.7);
+	--rock-border: hsl(349, 70%, 56%);
+	--dark-text: hsl(229, 25%, 31%);
+	--dark-text-1: hsla(229, 25%, 31%, 0.7);
+	--dark-text-2: hsla(229, 25%, 31%, 0.5);
+	--light-text: #fff;
+	--score-text: hsl(229, 64%, 46%);
+	--header-outline: hsl(217, 16%, 45%);
+	--background: radial-gradient(circle at center, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+	--box-shadow-inner: inset 0 0.5em rgb(0 0 0 / 20%);
+	--bar: hsl(237, 49%, 15%);
+}

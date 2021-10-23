@@ -1,0 +1,62 @@
+doctype html
+html(lang='en')
+  head
+    // meta tags
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(name='description' content='Rock Paper Scissor Game')
+    link(rel='icon' type='image/png' sizes='32x32' href='./images/favicon-32x32.png')
+    // title
+    title Rock Paper Scissors
+    // css style
+    link(rel='stylesheet' href='./styles/main.css')
+    // fonts
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap' rel='stylesheet')
+    // scripts
+    script(defer='' src='./scripts/web_modules/main.js')
+  body
+    //
+      to add overlay when Rules button is clicked
+    .layer--overlay
+    // header
+    header.header
+      img.header__logo(src='./images/logo.svg' alt='Rock Paper Scissor')
+      .score-board
+        .player__score
+          .player__score__title PLAYER
+          .player__score__score 0
+        .computer__score
+          .computer__score__title COMPUTER
+          .computer__score__score 0
+    // step one game area
+    section.step_one.gamearea
+      .paper(data-selected-icon='paper')
+        img.paper__image(src='./images/icon-paper.svg' alt='Paper')
+      .scissor(data-selected-icon='scissor')
+        img.scissor__image(src='./images/icon-scissors.svg' alt='Scissor')
+      .rock(data-selected-icon='rock')
+        img.rock__image(src='./images/icon-rock.svg' alt='Rock')
+    // step two game area
+    section.step_two.gamearea.hide
+      .user
+        .user__title YOU PICKED
+        .user__picked
+          img.user__icon(src='' alt='')
+      .result.hide
+        .result__title
+        .play_again PLAY AGAIN
+      .computer
+        .computer__title COMPUTER PICKED
+        .computer__picked.computer__picked--empty
+          img.computer__icon.hide(src='' alt='')
+    footer
+      button.btn.btn__rules(type='button') RULES
+      .overlay.hide
+        .overlay__card.overlay__card--toggle
+          .overlay__header
+            h3.overlay__title RULES
+            img.overlay__close(src='./images/icon-close.svg' alt='close')
+          img.overlay__image(src='./images/image-rules.svg' alt='rules')
