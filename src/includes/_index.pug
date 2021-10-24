@@ -1,1 +1,21 @@
-h2 Index Page
+// step one game area
+section.step_one.gamearea
+  .paper(data-selected-icon='paper')
+    img.paper__image(src='./images/icon-paper.svg' alt='Paper')
+  .scissor(data-selected-icon='scissor')
+    img.scissor__image(src='./images/icon-scissors.svg' alt='Scissor')
+  .rock(data-selected-icon='rock')
+    img.rock__image(src='./images/icon-rock.svg' alt='Rock')
+// step two game area
+section.step_two.gamearea.hide
+  .user
+    .user__title YOU PICKED
+    .user__picked
+      img.user__icon(src='' alt='')
+  .result.hide
+    .result__title
+    .play_again PLAY AGAIN
+  .computer
+    .computer__title COMPUTER PICKED
+    .computer__picked.computer__picked--empty
+      img.computer__icon.hide(src='' alt='')
