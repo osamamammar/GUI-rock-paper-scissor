@@ -129,7 +129,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 // event listener onclick to play again button
-playAgain.addEventListener('click', playAgain);
+playAgain.addEventListener('click', playerPlayAgain);
 
 // event listener onclick to display rules
 btnRules.addEventListener('click', displayRules);
@@ -138,7 +138,7 @@ btnRules.addEventListener('click', displayRules);
 overlayClose.addEventListener('click', closeOverlay);
 
 // function to change game area and play again
-function playAgain() {
+function playerPlayAgain() {
 	gameAreaStepTwo.classList.add('hide');
 	resultAppear.classList.add('hide');
 	resultOfRound.textContent = '';
