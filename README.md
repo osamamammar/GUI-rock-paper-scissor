@@ -2,13 +2,19 @@
 
 JS practice project from (The Odin Project). rock paper scissors GUI
 
-## Desktop
+## Screenshots
 
-![img](https://github.com/osamamammar/GUI-rock-paper-scissors/blob/main/src/images/desktop.png?raw=true)
+<p align="center">
+   Desktop
+   <br></br>
+  <img width="600" src="https://github.com/osamamammar/GUI-rock-paper-scissors/blob/main/src/images/desktop.png?raw=true">
+</p>
 
-## Mobile
-
-![img](https://raw.githubusercontent.com/osamamammar/GUI-rock-paper-scissors/main/src/images/mobile.png)
+<p align="center">
+   Mobile
+   <br></br>
+  <img src="https://raw.githubusercontent.com/osamamammar/GUI-rock-paper-scissors/main/src/images/mobile.png">
+</p>
 
 ## Getting started
 
