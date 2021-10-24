@@ -88,11 +88,11 @@ function playGame() {
 
 			// check if score is 5 to end the game
 			if (playerScore >= numOfRound) {
-				resultOfRound.textContent = 'you won the Game';
+				resultOfRound.textContent = '🥳congrats! you won';
 				endGame();
 			}
 			if (computerScore >= numOfRound) {
-				resultOfRound.textContent = 'Game Over';
+				resultOfRound.textContent = '😵Loser! Game Over';
 				endGame();
 			}
 		})
