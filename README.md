@@ -2,8 +2,13 @@
 
 JS practice project from (The Odin Project). rock paper scissors GUI
 
-![img](./images/desktop.png)
-![img](./images/mobile.png)
+## Desktop
+
+![img](https://github.com/osamamammar/GUI-rock-paper-scissors/blob/main/src/images/desktop.png?raw=true)
+
+## Mobile
+
+![img](https://raw.githubusercontent.com/osamamammar/GUI-rock-paper-scissors/main/src/images/mobile.png)
 
 ## Getting started
 
@@ -24,3 +29,7 @@ These scripts can be run by `yarn SCRIPT_NAME` or `npm run SCRIPT_NAME`. They're
 - Write better documentation for getting started.
 - Cache busting for scripts written by developers.
 - Support for WebP and options to generate them automatically.
+
+## Design Copyrights
+
+[Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
