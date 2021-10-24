@@ -1,10 +1,10 @@
 // step one game area
 section.step_one.gamearea
-  .paper(data-selected-icon='paper')
+  button.paper.player__button(data-choice='paper')
     img.paper__image(src='./images/icon-paper.svg' alt='Paper')
-  .scissor(data-selected-icon='scissor')
-    img.scissor__image(src='./images/icon-scissors.svg' alt='Scissor')
-  .rock(data-selected-icon='rock')
+  button.scissor.player__button(data-choice='scissor')
+    img.scissor__image(src='./images/icon-scissor.svg' alt='Scissor')
+  button.rock.player__button(data-choice='rock')
     img.rock__image(src='./images/icon-rock.svg' alt='Rock')
 // step two game area
 section.step_two.gamearea.hide

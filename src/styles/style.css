@@ -8,7 +8,7 @@
 	padding: 1rem 1rem;
 	width: 60%;
 	margin: 1rem auto;
-	@media (max-width: 650px) {
+	@media (max-width: 720px) {
 		width: 90%;
 	}
 }
@@ -16,8 +16,8 @@
 .header__logo {
 	width: auto;
 	height: 100%;
-	@media (max-width: 650px) {
-		height: 50px;
+	@media (max-width: 720px) {
+		height: 60px;
 	}
 }
 
@@ -36,7 +36,7 @@
 	overflow: hidden;
 	display: grid;
 	place-items: center;
-	@media (max-width: 650px) {
+	@media (max-width: 720px) {
 		width: 90px;
 		height: 5rem;
 	}
@@ -55,7 +55,7 @@
 		align-self: start;
 		color: var(--dark-text);
 	}
-	@media (max-width: 650px) {
+	@media (max-width: 720px) {
 		&__title {
 			font-size: 0.7rem;
 		}
@@ -74,10 +74,10 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	padding: 20px;
-	@media (max-width: 650px) {
-		height: 350px;
+	@media (max-width: 720px) {
+		/* height: 350px; */
 		width: 350px;
-		padding: 40px 20px;
+		/* padding: 40px 20px; */
 	}
 }
 
@@ -94,7 +94,7 @@
 	align-items: center;
 	justify-content: center;
 	gap: 50px;
-	@media (max-width: 650px) {
+	@media (max-width: 720px) {
 		grid-template-areas:
 			'user computer'
 			'result result';
@@ -114,7 +114,7 @@
 	align-self: center;
 	justify-self: center;
 	cursor: pointer;
-	@media (max-width: 650px) {
+	@media (max-width: 720px) {
 		height: 120px;
 		width: 120px;
 	}
@@ -170,7 +170,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	gap: 20px;
-	@media (max-width: 650px) {
+	@media (max-width: 720px) {
 		grid-area: result;
 		width: 80%;
 		margin-top: 30px;
@@ -182,7 +182,7 @@
 		color: var(--light-text);
 		z-index: 3;
 		text-align: center;
-		@media (max-width: 650px) {
+		@media (max-width: 720px) {
 			font-size: 3rem;
 			text-align: center;
 			margin-bottom: 10px;
@@ -200,7 +200,7 @@
 		cursor: pointer;
 		z-index: 3;
 		text-align: center;
-		@media (max-width: 650px) {
+		@media (max-width: 720px) {
 			font-size: 1rem;
 			letter-spacing: 2px;
 			padding: 10px 0;
@@ -282,7 +282,7 @@
 	justify-content: center;
 	align-items: center;
 	gap: 40px;
-	@media (max-width: 650px) {
+	@media (max-width: 720px) {
 		flex-direction: column-reverse;
 	}
 
@@ -292,7 +292,7 @@
 		font-weight: 600;
 		z-index: 3;
 		width: max-content;
-		@media (max-width: 650px) {
+		@media (max-width: 720px) {
 			font-size: 1rem;
 		}
 	}
@@ -303,7 +303,7 @@
 		background: #fff;
 		display: grid;
 		place-items: center;
-		@media (max-width: 650px) {
+		@media (max-width: 720px) {
 			height: 120px;
 			width: 120px;
 		}
@@ -335,8 +335,8 @@
 		width: 210px;
 		background: var(--bar);
 	}
-	@media (min-width: 650px) {
-		transform: translateX(80px);
+	@media (min-width: 720px) {
+		transform: translateX(120px);
 	}
 }
 .user {
@@ -345,11 +345,11 @@
 		width: 210px;
 		background: var(--bar);
 	}
-	@media (min-width: 650px) {
-		transform: translateX(-80px);
+	@media (min-width: 720px) {
+		transform: translateX(-120px);
 	}
 }
-@media (max-width: 650px) {
+@media (max-width: 720px) {
 	.user {
 		grid-area: user;
 	}
@@ -376,7 +376,7 @@
 	color: var(--light-text);
 	cursor: pointer;
 	background-color: transparent;
-	@media (max-width: 650px) {
+	@media (max-width: 720px) {
 		bottom: 30px;
 		right: 50%;
 		transform: translateX(50%);
