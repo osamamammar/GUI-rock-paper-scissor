@@ -1,4 +1,7 @@
 /* header */
+.wrapper {
+	padding-top: 1rem;
+}
 .header {
 	border: 3px solid var(--header-outline);
 	border-radius: 0.5rem;
@@ -7,7 +10,7 @@
 	align-items: center;
 	padding: 1rem 1rem;
 	width: 60%;
-	margin: 1rem auto;
+	margin: 0rem auto;
 	@media (max-width: 720px) {
 		width: 90%;
 	}
