@@ -196,4 +196,5 @@ function startNewGame() {
 	computerPicked.classList.remove(`computer__picked--${computerSelection}`);
 	computerChoice.setAttribute('src', ``);
 	userPicked.classList.remove(`user__picked--${playerSelection}`);
+	playAgain.removeEventListener('click', startNewGame);
 }
