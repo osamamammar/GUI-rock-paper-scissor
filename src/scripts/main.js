@@ -1,6 +1,5 @@
 // player buttons
 const playerButtons = document.querySelectorAll('.player__button');
-// const playerButtonsContainer = document.querySelector('.player-choices');
 
 // choice display icon
 const playerChoice = document.querySelector('.user__icon');
