@@ -30,12 +30,6 @@ These scripts can be run by `yarn SCRIPT_NAME` or `npm run SCRIPT_NAME`. They're
 - `dev` starts the development server.
 - `build` run the necessary scripts to build your application.
 
-## Todo
-
-- Write better documentation for getting started.
-- Cache busting for scripts written by developers.
-- Support for WebP and options to generate them automatically.
-
 ## Design Copyrights
 
 [Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
